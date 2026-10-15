@@ -1,8 +1,8 @@
 # My First Project
 
-Personal page created with HTML to pratice Git, GitHub e GitHub Pages.
+Personal page created with HTML to pratice Git, GitHub and GitHub Pages.
 
-## What i have learned
+## What I have learned
 
 - Basic HTML structure (boiler plate)
 - Titles, paragraphs, lists, links and images

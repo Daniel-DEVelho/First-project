@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Rubinot's Survey</h1>
+    <p id="description">This is a little survey to help us improve our game</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" type="text" name="name" placeholder="name" required></input><br>
+      <br>
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" type="email" name="email" placeholder="email" required></input><br>
+      <br>
+      <label id="number-label" for="number">Age (opt):</label>
+      <input id="number" type="number" name="number" min="1" max="99" placeholder="age"></input><br>
+      <br>
+      <label id="vocation-label" for="vocation">Vocation:</label>
+      <select id="dropdown" name="vocation" required>
+        <option value="" disabled selected></option>
+        <option value="druid">Druid</option>
+        <option value="knight">Knight</option>
+        <option value="monk">Monk</option>
+        <option value="sorcerer">Sorcerer</option>
+        <option value="paladin">Paladin</option>
+      </select><br>
+      <br>
+      <label id="world-label" for="world">World type:</label><br>
+      <input type="radio" name="optpvp" value="optpvp"></input>
+      <label id="optpvp" for="optpvp">Optional PVP</label><br>
+      <input type="radio" name="openpvp" value="openpvp"></input>
+      <label id="openpvp" for="openpvp">Open PVP</label><br>
+      <input type="radio" name="retropvp"></input>
+      <label id="retropvp" for="retropvp" value="retropvp">Retro PVP</label><br>
+      <br>
+      <label id="recomendation-label" for="recomendation">What you like the most on Rubinot?</label><br>
+      <input type="checkbox" id="rtc" name="rtc" value="rtc">
+      <label id="rtc" for="rtc">RTC</label><br>
+        <input type="checkbox" id="roleta" name="roleta" value="roleta">
+      <label id="roleta" for="roleta">Roleta</label><br>
+        <input type="checkbox" id="linked" name="linked" value="linked">
+      <label id="linked" for="linked">Linked Tasks</label><br>
+        <input type="checkbox" id="livestore" name="livestore" value="livestore">
+      <label id="livestore" for="livestore">Live Store</label><br>
+        <input type="checkbox" id="events" name="events" value="events">
+      <label id="events" for="events">Events</label><br>
+      <br>
+      <label id="comments-label" for="comments">Do you want to add something? Leave your comments bellow:</label><br>
+      <textarea id="comments" name="comments" cols="55" rows="5"></textarea><br>
+      <br>
+      <br>
+      <button type="button" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

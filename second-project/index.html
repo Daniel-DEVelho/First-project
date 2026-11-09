@@ -28,12 +28,12 @@
       </select><br>
       <br>
       <label id="world-label" for="world">World type:</label><br>
-      <input type="radio" name="optpvp" value="optpvp"></input>
-      <label id="optpvp" for="optpvp">Optional PVP</label><br>
-      <input type="radio" name="openpvp" value="openpvp"></input>
-      <label id="openpvp" for="openpvp">Open PVP</label><br>
-      <input type="radio" name="retropvp"></input>
-      <label id="retropvp" for="retropvp" value="retropvp">Retro PVP</label><br>
+      <input type="radio" id="optpvp" name="world-type" value="optpvp" required>
+      <label for="optpvp">Optional PVP</label><br>
+      <input type="radio" id="openpvp" name="world-type" value="openpvp">
+      <label for="openpvp">Open PVP</label><br>
+      <input type="radio" id="retropvp" name="world-type" value="retropvp">
+      <label for="retropvp">Retro PVP</label><br>
       <br>
       <label id="recomendation-label" for="recomendation">What you like the most on Rubinot?</label><br>
       <input type="checkbox" id="rtc" name="rtc" value="rtc">
@@ -51,7 +51,7 @@
       <textarea id="comments" name="comments" cols="55" rows="5"></textarea><br>
       <br>
       <br>
-      <button type="button" id="submit">Submit</button>
+      <button type="submit" id="submit">Submit</button>
     </form>
   </body>
 </html>

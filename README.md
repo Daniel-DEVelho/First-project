@@ -17,11 +17,11 @@ web development to understand systems from the inside as well.
 
 ## Progress (freeCodeCamp)
 
-- [x] HTML
-- [ ] CSS (in progress)
-- [ ] JavaScript
-- [ ] Python
-- [ ] SQL
+- [ ] Responsive Web Design: HTML & CSS (in progress)
+- [ ] JavaScript: DOM & algorithms
+- [ ] Front End Libraries: React & TypeScript
+- [ ] Relational Databases: Bash, SQL & Git (in progress)
+- [ ] Back End Development and APIs: Node.js & Express
 
 ## Contact
 

@@ -1,14 +1,28 @@
-# My First Project
+# Web Development Journey
 
-Personal page created with HTML to pratice Git, GitHub and GitHub Pages.
+This repository documents my web development learning path,
+with small projects that show my progress at each stage.
 
-## What I have learned
+I work as a key user on an ERP implementation and I'm studying
+web development to understand systems from the inside as well.
 
-- Basic HTML structure (boiler plate)
-- Titles, paragraphs, lists, links and images
-- Commits, push and branches with Git
-- Publish a website with GitHub Pages
+🔗 **Live site:** https://daniel-develho.github.io/First-project/
 
-## GitHub Page
+## Projects
 
-https://daniel-develho.github.io/First-project/
+| Project | What I practiced | Live |
+|---|---|---|
+| **HTML Basics**: a study page organized in chapters, with comments explaining each tag | Page structure, headings and paragraphs, images with captions (`figure`/`figcaption`), links, lists | [Open](https://daniel-develho.github.io/First-project/first-project/) |
+| **Survey Form**: a feedback form for an online game (freeCodeCamp project) | HTML forms: text, email and number inputs with validation (`required`, `min`/`max`), dropdown, radio buttons, labels linked to fields | [Open](https://daniel-develho.github.io/First-project/second-project/) |
+
+## Progress (freeCodeCamp)
+
+- [x] HTML
+- [ ] CSS (in progress)
+- [ ] JavaScript
+- [ ] Python
+- [ ] SQL
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/danieltgsa/)
